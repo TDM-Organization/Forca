@@ -25,7 +25,7 @@
 
 .input-teclado{
     position: absolute;
-    top: -100vh;
+    top: -9999px;
 }
 
 .container{
