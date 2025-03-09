@@ -24,8 +24,9 @@
 }
 
 .input-teclado{
-    position: absolute;
-    top: -9999px;
+    border: none;
+    outline: none;
+    background-color: rgb(65, 65, 65);
 }
 
 .container{
