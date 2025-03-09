@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter";
+    font-weight: 400;
+}
+
+.container-animacao{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: absolute;
+    z-index: 1;
+}
+
+.bar{
+    background-color: rgb(12, 3, 178);
+    width: 5%;
+    height: 100%;
+    transition: 500ms;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    padding: 30px;
+    background-color: rgb(65, 65, 65);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dica{
+    color: #fff;
+}
+
+.div{
+    padding-top: 20px;
+    display: flex;
+    width: 400px;
+}
+
+.forca{
+    width: 100px;
+    height: 200px;
+    display: flex;
+}
+
+.line-left{
+    width: 2px;
+    height: 100%;
+    background-color: #fff;
+}
+
+.line-top{
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+}
+
+.line-right{
+    width: 2px;
+    height: 30%;
+    background-color: #fff;
+}
+
+.corpo{
+    height: 70%;
+}
+
+.div-right{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.cabeca{
+    width: 30px;
+    height: 30px;
+    transform: translate(-15px);
+    border-radius: 15px;
+    background-color: #fff;
+    display: none;
+}
+
+.pescoco{
+    height: 10px;
+    width: 2px;
+    background-color: #fff;
+    display: none;
+}
+
+.bracos{
+    height: 30px;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.left-braco{
+    height: 100%;
+    width: 2px;
+    background-color: #fff;
+    transform: rotate(45deg);
+    position: absolute;
+    left: -10px;
+    top: -5px;
+    display: none;
+}
+
+.right-braco{
+    height: 100%;
+    width: 2px;
+    background-color: #fff;
+    transform: rotate(-45deg);
+    position: absolute;
+    left: 10px;
+    top: -5px;
+    display: none;
+}
+
+.tronco{
+    height: 30px;
+    width: 2px;
+    background-color: #fff;
+    position: absolute;
+    transform: translate(0, -30px);
+    display: none;
+}
+
+.pernas{
+    height: 30px;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.left-perna{
+    height: 100%;
+    width: 2px;
+    background-color: #fff;
+    transform: rotate(45deg);
+    position: absolute;
+    left: -10px;
+    top: -5px;
+    display: none;
+}
+
+.right-perna{
+    height: 100%;
+    width: 2px;
+    background-color: #fff;
+    transform: rotate(-45deg);
+    position: absolute;
+    left: 10px;
+    top: -5px;
+    display: none;
+}
+
+.campos{
+    display: flex;
+    width: 400px;
+    gap: 5px;
+}
+
+.campo{
+    font-size: 2rem;
+    color: #fff;
+}
+
+.letras-erradas{
+    display: flex;
+    gap: 5px;
+}
+
+.letra-errada{
+    font-size: 2rem;
+    color: #fff;
+}
