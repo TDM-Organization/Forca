@@ -8,6 +8,10 @@ const campos = document.querySelector('.campos');
 gerarPalavra();
 carregarPalavra();
 
+window.onload = () => {
+    document.querySelector('.input-teclado').focus();
+}
+
 
 document.addEventListener('keydown', (ev) => {
     if (ev.key && ev.key.length == 1) {
